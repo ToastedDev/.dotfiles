@@ -122,9 +122,14 @@ esac
 alias pn=pnpm
 # pnpm end
 
-# Just in case
-alias vim=nvim
-alias neovim=nvim
+# vim -> open vim in the current directory or open the target file
+function vim() {
+  if [[ $# -eq 0 ]]; then
+      nvim .
+  else
+      nvim "$@"
+  fi
+}
 
 bindkey '^\t' autosuggest-accept
 
