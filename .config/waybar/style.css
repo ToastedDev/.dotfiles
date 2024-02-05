@@ -48,7 +48,7 @@ tooltip label {
 }
 
 #workspaces button:hover {
-  background: #11111b;
+  background: #232a2d;
   color: #cdd6f4;
   border-radius: 10px;
 }
@@ -81,22 +81,37 @@ tooltip label {
 }
 
 #tray,
-#custom-lock_screen,
 #temperature,
-#backlight,
 #custom-launch_wofi,
 #cpu {
   border-radius: 10px 0px 0px 10px;
+}
+
+#workspaces,
+#clock {
+  margin-right: 10px;
+}
+
+#clock {
+  border-radius: 10px;
 }
 
 #custom-light_dark,
 #custom-power_btn,
 #workspaces,
 #pulseaudio.microphone,
-#battery,
 #disk {
   border-radius: 0px 10px 10px 0px;
-  margin-right: 10px;
+}
+
+#battery {
+  margin-right: -10px;
+}
+
+#custom-power_btn {
+  margin-left: -10px;
+  margin-right: 18px;
+  padding-right: 15px;
 }
 
 #temperature.critical {
@@ -122,19 +137,7 @@ tooltip label {
 
 #custom-launch_wofi {
   color: #89b4fa;
-  margin-left: 10px;
-  border-right: 0px;
-}
-
-#pulseaudio {
-  color: #89b4fa;
-  border-left: 0px;
-  border-right: 0px;
-}
-
-#pulseaudio.microphone {
-  color: #cba6f7;
-  border-left: 0px;
+  margin-left: 18px;
   border-right: 0px;
 }
 
