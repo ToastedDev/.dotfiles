@@ -47,3 +47,4 @@ style = "Regular"
 
 [cursor]
 style = "Beam"
+vi_mode_style = "Beam"
