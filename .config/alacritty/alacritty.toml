@@ -27,7 +27,7 @@ background = "0x141b1e"
 foreground = "0xdadada"
 
 [font]
-size = 18
+size = 16
 
 [font.bold]
 family = "JetBrainsMono Nerd Font"
@@ -44,3 +44,6 @@ style = "Regular Italic"
 [font.normal]
 family = "JetBrainsMono Nerd Font"
 style = "Regular"
+
+[cursor]
+style = "Beam"
