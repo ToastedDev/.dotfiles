@@ -139,3 +139,6 @@ bindkey '^\t' autosuggest-accept
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+# swww
+export PATH="$HOME/swww/target/release:$PATH"
