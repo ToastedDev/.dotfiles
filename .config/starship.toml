@@ -1,0 +1,52 @@
+# add_newline = false
+
+# [character]
+# success_symbol = "[➜](bold green)"
+# error_symbol = "[➜](bold red)"
+
+# [line_break]
+# disabled = true
+
+
+[time]
+disabled = true
+
+[cmd_duration]
+disabled = true
+
+[directory]
+truncation_length = 1
+
+[git_branch]
+disabled = false
+format = '[$branch(:$remote_branch)]($style) '
+style = "dimmed"
+# disabled = true
+
+[git_state]
+disabled = true
+
+[git_status]
+disabled = true
+
+[git_metrics]
+disabled = true
+
+[nodejs]
+disabled = true
+
+[bun]
+disabled = true
+
+[rust]
+disabled = true
+
+[battery]
+disabled = true
+
+[package]
+disabled = true
+
+[lua]
+disabled = true
+
