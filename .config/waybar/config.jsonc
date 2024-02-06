@@ -16,8 +16,8 @@
   "modules-right": [
     "clock",
     "temperature",
-    "battery",
     "backlight",
+    "battery",
     "custom/power_btn",
   ],
 

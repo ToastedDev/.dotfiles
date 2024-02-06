@@ -73,11 +73,30 @@ tooltip label {
 #workspaces,
 #backlight {
   background: #141b1e;
+  border-top: 2px solid #8ccf7e;
+  border-bottom: 2px solid #8ccf7e;
   opacity: 0.8;
   padding: 0px 10px;
   margin: 3px 0px;
   margin-top: 10px;
-  border: 0px;
+}
+
+#backlight {
+  padding: 0px;
+}
+
+#custom-launch_wofi,
+#cpu,
+#clock,
+#temperature {
+  border-left: 2px solid #8ccf7e;
+}
+
+#workspaces,
+#disk,
+#clock,
+#custom-power_btn {
+  border-right: 2px solid #8ccf7e;
 }
 
 #tray,
@@ -93,6 +112,7 @@ tooltip label {
 }
 
 #clock {
+  padding-top: 5px;
   border-radius: 10px;
 }
 
@@ -109,7 +129,6 @@ tooltip label {
 }
 
 #custom-power_btn {
-  margin-left: -10px;
   margin-right: 18px;
   padding-right: 15px;
 }
