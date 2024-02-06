@@ -13,6 +13,7 @@
     "memory",
     "disk",
   ],
+  "modules-center": ["hyprland/window"],
   "modules-right": [
     "clock",
     "temperature",

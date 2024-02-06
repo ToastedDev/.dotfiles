@@ -87,6 +87,7 @@ tooltip label {
 
 #custom-launch_wofi,
 #cpu,
+#window,
 #clock,
 #temperature {
   border-left: 2px solid #8ccf7e;
@@ -94,6 +95,7 @@ tooltip label {
 
 #workspaces,
 #disk,
+#window,
 #clock,
 #custom-power_btn {
   border-right: 2px solid #8ccf7e;
