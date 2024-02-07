@@ -54,22 +54,15 @@ tooltip label {
 
 #custom-launch_wofi,
 #custom-lock_screen,
-#custom-light_dark,
 #custom-power_btn,
-#custom-power_profile,
-#custom-weather,
 #window,
 #cpu,
 #disk,
-#custom-updates,
 #memory,
 #clock,
 #battery,
-#pulseaudio,
-#network,
-#tray,
-#temperature,
 #workspaces,
+#bluetooth,
 #backlight {
   background: #141b1e;
   padding: 0px 10px;
@@ -78,11 +71,12 @@ tooltip label {
 }
 
 #backlight {
-  padding: 0px;
+  padding-left: 3px;
+  padding-right: 0px;
 }
 
 #tray,
-#temperature,
+#backlight,
 #custom-launch_wofi,
 #cpu {
   border-radius: 10px 0px 0px 10px;
@@ -103,6 +97,10 @@ tooltip label {
 #pulseaudio.microphone,
 #disk {
   border-radius: 0px 10px 10px 0px;
+}
+
+#bluetooth {
+  margin-right: -5px;
 }
 
 #battery {

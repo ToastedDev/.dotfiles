@@ -16,9 +16,9 @@
   "modules-center": ["hyprland/window"],
   "modules-right": [
     "clock",
-    "temperature",
     "backlight",
     "battery",
+    "bluetooth",
     "custom/power_btn",
   ],
 
@@ -143,11 +143,8 @@
     "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
   },
 
-  "temperature": {
-    "thermal-zone": 1,
-    "format": " {temperatureF}°F",
-    "critical-threshold": 70,
-    "format-critical": " {temperatureC}°C",
-    "on-click": "kitty --start-as=fullscreen --title btop sh -c 'btop'",
+  "bluetooth": {
+    "format": "",
+    "on-click": "blueman-manager",
   },
 }
