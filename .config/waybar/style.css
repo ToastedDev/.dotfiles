@@ -13,8 +13,7 @@ window#waybar {
 }
 
 tooltip {
-  background: #1e1e2e;
-  opacity: 0.8;
+  background: #141b1e;
   border-radius: 10px;
   border-width: 2px;
   border-style: solid;
@@ -22,7 +21,7 @@ tooltip {
 }
 
 tooltip label {
-  color: #cdd6f4;
+  color: #dadada;
 }
 
 #workspaces button {
