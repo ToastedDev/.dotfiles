@@ -32,7 +32,7 @@ tooltip label {
 }
 
 #workspaces button.active {
-  color: #dadada;
+  color: #8ccf7e;
 }
 
 #workspaces button.focused {
@@ -108,7 +108,7 @@ tooltip label {
 }
 
 #battery {
-  margin-right: -10px;
+  margin-right: -8px;
 }
 
 #custom-power_btn {
