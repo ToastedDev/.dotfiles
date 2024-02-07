@@ -14,7 +14,7 @@ This repository contains my silly little configuration that somehow makes my set
 
 ## Installation
 
-First, clone this repository n your $HOME directory:
+First, clone this repository in your $HOME directory:
 
 ```
 $ git clone git@github.com/ToastedDev/.dotfiles.git $HOME/.dotfiles
