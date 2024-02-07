@@ -10,7 +10,7 @@ This repository contains my silly little configuration that somehow makes my set
 - Shell: [zsh](https://zsh.org)
 - Prompt: [Starship](https://starship.rs)
 
-![image](https://github.com/ToastedDev/.dotfiles/assets/50563138/4c4651de-d08d-48a2-b166-f221bf432344)
+![screenshot](https://raw.githubusercontent.com/ToastedDev/.dotfiles/main/screenshots/neofetch.png)
 
 ## Installation
 
