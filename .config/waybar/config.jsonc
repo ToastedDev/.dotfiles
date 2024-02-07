@@ -118,9 +118,7 @@
   },
 
   "clock": {
-    "format": "⏲ {:%I:%M %p}",
-    "tooltip": true,
-    "tooltip-format": "{: %A, %B %e %Y}",
+    "format": "{: %I:%M %p   %d/%m}",
   },
 
   "backlight": {
