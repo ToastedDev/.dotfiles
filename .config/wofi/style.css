@@ -9,7 +9,7 @@ window {
   margin: 4px;
   padding-left: 20px;
   border: none;
-  color: #cdd6f4;
+  color: #dadada;
   font-weight: bold;
   background-color: #232a2d;
   outline: none;
@@ -25,7 +25,7 @@ window {
 #inner-box {
   margin: 4px;
   border: 10px solid #141b1e;
-  color: white;
+  color: #dadada;
   font-weight: bold;
   background-color: #141b1e;
   border-radius: 15px;
