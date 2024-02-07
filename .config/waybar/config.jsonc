@@ -118,7 +118,7 @@
   },
 
   "clock": {
-    "format": "{: %I:%M %p   %d/%m}",
+    "format": "{: %I:%M %p   %m/%d/%Y}",
   },
 
   "backlight": {
