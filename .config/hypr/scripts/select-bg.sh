@@ -70,7 +70,6 @@ main() {
 
   if [[ $pic_index -ne -1 ]]; then
     swww img "${wallDIR}/${PICS[$pic_index]}" $SWWW_PARAMS
-    ln -sf "$wallpaper_path" "$HOME/.config/rofi/.current_wallpaper"
   else
     echo "Image not found."
     exit 1
