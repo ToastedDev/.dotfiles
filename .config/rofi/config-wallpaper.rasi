@@ -79,12 +79,13 @@ inputbar {
     border-radius:          10px;
 	background-color:		#232a2d;
     children:               [ "textbox-prompt-colon", "entry" ];
+    spacing: 15px;
 }
 
 textbox-prompt-colon {
     enabled:                true;
     expand:                 false;
-    str:                    "󰸉 ";
+    str:                    "󰸉";
     text-color:             inherit;
 	background-color:		transparent;
 }
