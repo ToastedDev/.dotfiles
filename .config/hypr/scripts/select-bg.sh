@@ -7,7 +7,7 @@ export PATH="$HOME/swww/target/release/:$PATH"
 SCRIPTSDIR="$HOME/.config/hypr/scripts"
 
 # WALLPAPERS PATH
-wallDIR="$HOME/Pictures/wallpapers"
+wallDIR="$HOME/Pictures/Wallpapers"
 
 # Transition config
 FPS=30
