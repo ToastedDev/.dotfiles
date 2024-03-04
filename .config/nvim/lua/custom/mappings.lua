@@ -3,12 +3,12 @@ local M = {}
 -- In order to disable a default keymap, use
 M.disabled = {
   n = {
-      ["<leader>x"] = ""
+    ["<leader>x"] = ""
   }
 }
 
 -- Your custom mappings
-M.abc = {
+M.toasted = {
   n = {
      ["<C-w>"] = {
       function()
