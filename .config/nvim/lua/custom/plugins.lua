@@ -121,6 +121,7 @@ local plugins = {
       end)
     end
   },
-  { "nvim-tree/nvim-tree.lua", enabled = false }
+  { "nvim-tree/nvim-tree.lua", enabled = false },
+  { 'wakatime/vim-wakatime', lazy = false }
 }
 return plugins
