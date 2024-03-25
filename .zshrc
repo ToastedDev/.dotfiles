@@ -141,3 +141,7 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 # swww
 export PATH="$HOME/swww/target/release:$PATH"
+
+# zoxide
+export PATH="$HOME/.local/bin:$PATH"
+eval "$(zoxide init zsh --cmd cd)"
