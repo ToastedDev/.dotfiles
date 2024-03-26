@@ -69,7 +69,10 @@ ZSH_THEME=""
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(zsh-autosuggestions)
+plugins=(
+  zsh-autosuggestions
+  you-should-use
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -145,3 +148,5 @@ export PATH="$HOME/swww/target/release:$PATH"
 # zoxide
 export PATH="$HOME/.local/bin:$PATH"
 eval "$(zoxide init zsh --cmd cd)"
+
+export YSU_MESSAGE_POSITION="after"
