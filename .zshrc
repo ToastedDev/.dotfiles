@@ -150,3 +150,10 @@ export PATH="$HOME/.local/bin:$PATH"
 eval "$(zoxide init zsh --cmd cd)"
 
 export YSU_MESSAGE_POSITION="after"
+
+export FLYCTL_INSTALL="/home/toastedtoast/.fly"
+export PATH="$FLYCTL_INSTALL/bin:$PATH"
+
+export ANDROID_HOME=$HOME/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools
