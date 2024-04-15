@@ -125,9 +125,9 @@ alias pn=pnpm
 # vim -> open vim in the current directory or open the target file
 function vim() {
   if [[ $# -eq 0 ]]; then
-      nvim .
+      neovide .
   else
-      nvim "$@"
+      neovide "$@"
   fi
 }
 
