@@ -19,3 +19,7 @@ end
 dofile(vim.g.base46_cache .. "defaults")
 vim.opt.rtp:prepend(lazypath)
 require "plugins"
+
+if vim.g.neovide then
+  vim.g.neovide_cursor_animation_length = 0
+end
