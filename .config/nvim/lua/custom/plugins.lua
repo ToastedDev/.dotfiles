@@ -25,7 +25,8 @@ local plugins = {
         "emmet-language-server",
         "html-lsp",
         "json-lsp",
-        "astro-language-server"
+        "astro-language-server",
+        "gopls"
       }
     }
   },
